@@ -1,0 +1,198 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1px;
+}
+
+/*portfolio style*/
+
+.back-wrapper{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.back{
+    cursor: pointer;
+}
+
+
+main{
+    font-family: "Questrial";
+}
+
+.link-main{
+    text-decoration: none;
+    color: black;
+}
+
+.h1-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+.works-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.work-one{
+    width: 550px;
+    height: 400px;
+}
+
+.clownOne{
+    width: 550px;
+    height: 400px;
+}
+
+.name-wrapper{
+    margin-top: -30px;
+    font-size: 19px;
+}
+
+
+.name-wrapper:hover{
+    opacity: 70%;
+}
+
+.link-clown{
+    color: black;
+}
+
+.img-work{
+    margin-bottom: 35px;
+}
+
+
+
+.work-block{
+    display: block;
+}
+
+.work-two{
+    margin-top: 0;
+}
+
+.img-two{
+    width: 550px;
+    height: 350px;
+}
+
+@media(max-width: 570px){
+    .back-wrapper{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .clownDreamHead{
+        display: flex;
+        justify-content: center;
+    }
+
+    .name-wrapper{
+        margin-left: 50px;
+    }
+
+    .img-two{
+        width: 450px;
+        height: 320px;
+    }
+} 
+
+@media(max-width: 478px){
+    .name-wrapper{
+        margin-left: 85px;
+        margin-top: -20px;
+    }
+
+    .img-two{
+        width: 380px;
+        height: 270px;
+    }
+
+    .h1-wrapper{
+        font-size: 15px;
+    }
+} 
+
+
+@media(max-width: 425px){
+    .name-wrapper{
+        margin-left: 100px;
+        margin-top: -20px;
+    }
+
+    .back-wrapper{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .img-two{
+        width: 380px;
+        height: 270px;
+    }
+
+    .h1-wrapper{
+        font-size: 12px;
+    }
+} 
+
+@media(max-width: 390px){
+    .name-wrapper{
+        margin-left: 115px;
+        margin-top: -20px;
+    }
+
+    .back-wrapper{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .img-two{
+        width: 350px;
+        height: 240px;
+    }
+
+    .h1-wrapper{
+        font-size: 12px;
+    }
+
+    .img-work{
+        margin-bottom: 25px;
+    }
+} 
+
+
+@media(max-width: 357px){
+
+    .back-wrapper{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .img-two{
+        width: 320px;
+        height: 220px;
+    }
+
+    .h1-wrapper{
+        font-size: 10px;
+    }
+
+    .img-work{
+        margin-bottom: 25px;
+    }
+} 

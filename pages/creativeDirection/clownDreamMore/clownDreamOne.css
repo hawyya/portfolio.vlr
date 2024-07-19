@@ -1,0 +1,164 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1px;
+}
+
+
+
+/*portfolio style*/
+
+.clownDreamHead{
+    display: flex;
+    justify-content: center;
+}
+
+.back-wrapper{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.back{
+    cursor: pointer;
+}
+
+
+main{
+    font-family: "Questrial";
+}
+
+.link-main{
+    text-decoration: none;
+    color: black;
+}
+
+.h1-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+.works-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.clownOne{
+    width: 570px;
+    height: 400px;
+}
+
+.name-wrapper{
+    margin-top: -30px;
+    font-size: 19px;
+}
+
+
+.name-wrapper:hover{
+    opacity: 70%;
+}
+
+.link-clown{
+    color: black;
+}
+
+.img-work{
+    margin-bottom: 35px;
+}
+
+
+
+
+@media(max-width: 570px){
+    .back-wrapper{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .clownOne{
+        width: 470px;
+        height: 320px;
+    }
+} 
+
+@media(max-width: 478px){
+    .clownOne{
+        width: 380px;
+        height: 270px;
+    }
+
+    .h1-wrapper{
+        font-size: 15px;
+    }
+} 
+
+
+@media(max-width: 425px){
+    .back-wrapper{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .clownOne{
+        width: 380px;
+        height: 270px;
+    }
+
+    .h1-wrapper{
+        font-size: 12px;
+    }
+} 
+
+@media(max-width: 390px){
+    .back-wrapper{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .clownOne{
+        width: 350px;
+        height: 240px;
+    }
+
+    .h1-wrapper{
+        font-size: 12px;
+    }
+
+    .img-work{
+        margin-bottom: 25px;
+    }
+} 
+
+
+@media(max-width: 357px){
+
+    .back-wrapper{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .clownOne{
+        width: 320px;
+        height: 220px;
+    }
+
+    .h1-wrapper{
+        font-size: 10px;
+    }
+
+    .img-work{
+        margin-bottom: 25px;
+    }
+} 

@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/pages/portfolio/stylePortfolio.css">
+    <title>Vlr</title>
+</head>
+<body>
+        <main class="main">
+            <div class="container">
+            <div class="in-main-wrapper"> 
+                 
+                <div class="back-wrapper">
+                    <p class="back"><a class="link-main" href="/pages/main.page/MainPage.html">← back</a></p>
+                </div>
+                <div class="content-wrapper">
+                    <div class="no-flex">
+                <div class="h1-main-wrapper">
+                    <h1 class="h1-port">PORTFOLIO</h1>
+                </div>
+                <div class="ul-main-wrapper">
+                    <div class="ul-main">
+                        <li class="li-main"><a class="link-main" href="/pages/creativeDirection/creative.html">Creative Direction & Set Design</a></li>
+                        <li class="li-main"><a class="link-main" href="/pages/paintings/paintings.html">Paintings</a></li>
+                        <li class="li-main"><a class="link-main" href="">Other</a></li>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </main>
+        <style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1px;
+}
+
+/*portfolio style*/
+
+.back-wrapper{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+}
+
+.back{
+    cursor: pointer;
+}
+
+
+main{
+    font-family: "Questrial";
+}
+
+.h1-main-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+.ul-main-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.ul-main{
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.li-main{
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.link-main:hover{
+    font-weight: bolder;
+}
+
+.link-main{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.content-wrapper{
+    display: flex;
+    justify-content: center;
+    height: 90%;
+}
+
+.no-flex{
+    display: block;
+}
+ 
+
+@media(max-width: 600px){
+
+    .back-wrapper{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    
+    .content-wrapper{
+        display: flex;
+        align-items: center;
+    }
+
+
+    .h1-main-wrapper{
+    margin-top: 0;
+    
+    }
+}
+        </style>
+</body>
+</html>

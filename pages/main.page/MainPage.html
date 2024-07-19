@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/pages/main.page/style.css">
+    <title>Vlr</title>
+</head>
+<body>
+        <header class="header">
+            <div class="container">
+            <div class="in-header-wrapper"> 
+                <div class="h1-wrapper">
+                    <h2 class="h1">VALERIYA LYUBKINA</h2>
+                </div>
+                <div class="ul-wrapper">
+                    <ul class="ul">
+                        <li class="li"><a class="link" href="/pages/portfolio/Portfolio.html">Portfolio</a></li>
+                        <li class="li link-portfolio-margin"><a class="link"  href="/pages/">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="img-wrapper">
+                    <img src="/imgs/star.gif" alt="" class="img">
+                </div>
+            </div>
+        </main>
+        <style>
+            *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: black;
+}
+
+
+
+.h1:hover{
+    color: white;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1px;
+}
+
+
+.header{
+    height: 200px;
+    height: 150px;
+}
+
+.in-header-wrapper{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+.h1{
+    font-family: "Questrial";
+    user-select: none;
+    cursor: pointer;
+    width: 228px;
+    color: white;
+}
+
+
+
+
+.ul-wrapper{
+    margin-top: 20px;
+}
+
+.ul{
+    list-style: none;
+    font-family: "Questrial";
+}
+
+
+.li{
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    user-select: none;
+    width: 70px;
+    margin-top: 8px;
+}
+
+
+.li:hover{
+    font-weight: bolder;
+}
+
+
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400px;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/*portfolio style*/
+
+
+
+@media(max-width: 600px){
+
+
+    .body{overflow: hidden;}
+
+    .h1-wrapper{
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .in-header-wrapper{
+        margin-left: 0;
+    }
+
+    .ul-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ul{
+        margin-top: -10px;
+        text-align: center;
+    }
+
+    .li{
+        margin-bottom: 5px;
+        font-size: larger;
+        font-size: 20px;
+        margin-top: 8;
+    }
+}
+
+
+@media(max-width: 425px){
+    .img{
+        width: 300px;
+        height: 300px;
+    }
+}
+        </style>
+</div>
+</body>
+</html>

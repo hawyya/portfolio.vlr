@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: black;
+}
+
+
+
+.h1:hover{
+    color: white;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1px;
+}
+
+
+.header{
+    height: 200px;
+    height: 150px;
+}
+
+.in-header-wrapper{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+.h1{
+    font-family: "Questrial";
+    user-select: none;
+    cursor: pointer;
+    width: 228px;
+    color: white;
+}
+
+
+
+
+.ul-wrapper{
+    margin-top: 20px;
+}
+
+.ul{
+    list-style: none;
+    font-family: "Questrial";
+}
+
+
+.li{
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    user-select: none;
+    width: 70px;
+    margin-top: 8px;
+}
+
+
+.li:hover{
+    font-weight: bolder;
+}
+
+
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400px;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/*portfolio style*/
+
+
+
+@media(max-width: 600px){
+
+
+    .body{overflow: hidden;}
+
+    .h1-wrapper{
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .in-header-wrapper{
+        margin-left: 0;
+    }
+
+    .ul-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ul{
+        margin-top: -10px;
+        text-align: center;
+    }
+
+    .li{
+        margin-bottom: 5px;
+        font-size: larger;
+        font-size: 20px;
+        margin-top: 8;
+    }
+}
+
+
+@media(max-width: 425px){
+    .img{
+        width: 300px;
+        height: 300px;
+    }
+}

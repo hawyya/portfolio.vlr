@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1px;
+}
+
+/*portfolio style*/
+
+.back-wrapper{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+}
+
+.back{
+    cursor: pointer;
+}
+
+
+main{
+    font-family: "Questrial";
+}
+
+.h1-main-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+.ul-main-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.ul-main{
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.li-main{
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.link-main:hover{
+    font-weight: bolder;
+}
+
+.link-main{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.content-wrapper{
+    display: flex;
+    justify-content: center;
+    height: 90%;
+}
+
+.no-flex{
+    display: block;
+}
+ 
+
+@media(max-width: 600px){
+
+    .back-wrapper{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    
+    .content-wrapper{
+        display: flex;
+        align-items: center;
+    }
+
+
+    .h1-main-wrapper{
+    margin-top: 0;
+    
+    }
+}
